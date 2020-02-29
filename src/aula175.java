@@ -5,14 +5,10 @@ import java.util.Scanner;
 public class aula175 {
 
 	public static void main(String[] args) {
-
 		File file = new File("C:\\Users\\Alexandro\\OneDrive\\Documentos\\in.txt");	
-		Scanner sc = null;
-		
-		try {
-			
-			sc = new Scanner(file);
-			
+		Scanner sc = null;		
+		try {		
+			sc = new Scanner(file);			
 			while (sc.hasNextLine()) {
 				System.out.println(sc.nextLine());
 			}

@@ -31,8 +31,7 @@ public class aula176 {
 				}
 				if (fr != null) {
 					fr.close();
-				}
-				
+				}				
 			} catch (IOException e) {
 				e.printStackTrace();
 			}			

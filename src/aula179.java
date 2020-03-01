@@ -14,10 +14,10 @@ public class aula179 {
 		File[] folders = path.listFiles(File::isDirectory);
 
 		System.out.println("FOLDERS:");
-		for (File file : folders) {
-			System.out.println(file);
+		for (File folder : folders) {
+			System.out.println(folder);
 		}
-		
+
 		sc.close();
 	}
 }

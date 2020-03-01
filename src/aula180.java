@@ -16,7 +16,6 @@ public class aula180 {
 		System.out.println("getParent: " + path.getParent());
 		System.out.println("getPath: " + path.getPath());
 		
-
+		sc.close();
 	}
-
 }
